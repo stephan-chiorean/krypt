@@ -24,7 +24,7 @@ const TransactionCard = ({
             target='_blank'
             rel='noopener noreferrer'
           >
-            <p className='text-white text-base'>
+            <p className='text-white text-base hover:text-[#37c7da]'>
               From : {shortenAddress(addressFrom)}
             </p>
           </a>
@@ -33,7 +33,7 @@ const TransactionCard = ({
             target='_blank'
             rel='noopener noreferrer'
           >
-            <p className='text-white text-base'>
+            <p className='text-white text-base hover:text-[#37c7da]'>
               To : {shortenAddress(addressTo)}
             </p>
           </a>
